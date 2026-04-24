@@ -1,5 +1,5 @@
 {% set name = "wagtail-sharing" %}
-{% set version = "2.15" %}
+{% set version = "2.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 939e533ca25ceb7c6ae125544a9b4e83da32f9009f765c56b24c2d70957042aa
+  sha256: bfe1b1dc76b468cbd88a55c650bdd39c946c70a0754dd6736d171145c2e80b4e
 
 build:
   noarch: python
